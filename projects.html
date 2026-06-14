@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="htmlRoot">
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <title>Our Projects – AL AMAD AL FADHILAH GENERAL CONTRACTING</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the road, asphalt, and infrastructure projects completed and awarded to AL AMAD AL FADHILAH GENERAL CONTRACTING across Saudi Arabia.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Spinner -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+
+    <!-- Top Bar -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center border-start border-end px-3">
+                    <small class="fa fa-phone-alt me-2"></small>
+                    <small class="topbar-phone">+966 59 373 8642</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center border-end px-3">
+                    <small class="far fa-envelope-open me-2"></small>
+                    <small>info@alamadgc.com</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-square border-end" href="https://x.com/alamadgc"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square border-end" href="https://www.linkedin.com/company/alamadgc"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square border-end" href="https://www.instagram.com/alamadgc/?hl=en"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="img/logo.webp" alt="Logo" style="height:80px; margin-right:20px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-3 py-lg-0 align-items-center">
+                <a href="index.html"  class="nav-item nav-link" data-en="Home" data-ar="الرئيسية">Home</a>
+                <a href="about.html" class="nav-item nav-link" data-en="About Us" data-ar="من نحن">About Us</a>
+                <div class="nav-item nav-services-dropdown">
+                    <span class="nav-link nav-services-btn" id="servicesNavBtn">
+                        <span data-en="Our Services" data-ar="خدماتنا">Our Services</span>
+                        <i class="fas fa-chevron-down arrow-icon"></i>
+                    </span>
+                    <div class="dropdown-menu-services" id="servicesDropdown">
+                        <a href="service.html"><span class="srv-icon"><i class="fas fa-th-large"></i></span><span data-en="All Services" data-ar="جميع الخدمات">All Services</span></a>
+                        <a href="service-earthworks.html"><span class="srv-icon"><i class="fas fa-hard-hat"></i></span><span data-en="Earthworks & Site Preparation" data-ar="أعمال الحفر وتهيئة المواقع">Earthworks & Site Preparation</span></a>
+                        <a href="service-structural.html"><span class="srv-icon"><i class="fas fa-building"></i></span><span data-en="Structural & Concrete Works" data-ar="الأعمال الإنشائية والخرسانية">Structural & Concrete Works</span></a>
+                        <a href="service-roads.html"><span class="srv-icon"><i class="fas fa-road"></i></span><span data-en="Road Works & Pavements" data-ar="أعمال الأرصفة والطرق">Road Works & Pavements</span></a>
+                        <a href="service-drainage.html"><span class="srv-icon"><i class="fas fa-water"></i></span><span data-en="Drainage & Utilities Works" data-ar="أعمال الصرف والمرافق">Drainage & Utilities Works</span></a>
+                        <a href="service-electrical.html"><span class="srv-icon"><i class="fas fa-bolt"></i></span><span data-en="Electrical & Low Current Systems" data-ar="الأنظمة الكهربائية والتيار الخفيف">Electrical & Low Current Systems</span></a>
+                        <a href="service-mechanical.html"><span class="srv-icon"><i class="fas fa-wind"></i></span><span data-en="Mechanical Systems" data-ar="الأنظمة الميكانيكية">Mechanical Systems</span></a>
+                        <a href="service-landscape.html"><span class="srv-icon"><i class="fas fa-tree"></i></span><span data-en="Landscape & Urban Elements" data-ar="المناظر الطبيعية والعناصر الحضرية">Landscape & Urban Elements</span></a>
+                        <a href="service-safety.html"><span class="srv-icon"><i class="fas fa-shield-alt"></i></span><span data-en="Safety & Infrastructure Elements" data-ar="عناصر السلامة والبنية التحتية">Safety & Infrastructure Elements</span></a>
+                        <a href="service-finishing.html"><span class="srv-icon"><i class="fas fa-paint-roller"></i></span><span data-en="Finishing, Modular & Renewable Works" data-ar="أعمال التشطيبات والوحدات الجاهزة والطاقة المتجددة">Finishing, Modular & Renewable Works</span></a>
+                    </div>
+                </div>
+                <a href="projects.html" class="nav-item nav-link active" data-en="Projects" data-ar="المشاريع">Projects</a>
+                <a href="news.html"     class="nav-item nav-link" data-en="News" data-ar="الأخبار">News</a>
+                <a href="contact.html"  class="nav-item nav-link" data-en="Contact Us" data-ar="تواصل معنا">Contact Us</a>
+                <button onclick="toggleLang()" id="langBtn" class="lang-nav-link">
+                    <span id="langBtnText">عربي</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Offcanvas -->
+    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+        <div class="offcanvas-header border-bottom">
+            <img src="img/logo.webp" alt="Logo" style="height:55px;">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <nav class="mobile-nav">
+                <a href="index.html"    class="mobile-nav-link" data-en="Home" data-ar="الرئيسية">Home</a>
+                <a href="about.html"   class="mobile-nav-link" data-en="About Us" data-ar="من نحن">About Us</a>
+                <div class="mobile-services-wrap">
+                    <button class="mobile-nav-link mobile-services-toggle w-100 text-start border-0 bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#mobileServicesMenu">
+                        <span data-en="Our Services" data-ar="خدماتنا">Our Services</span>
+                        <i class="fas fa-chevron-down ms-auto"></i>
+                    </button>
+                    <div class="collapse" id="mobileServicesMenu">
+                        <div class="mobile-services-list">
+                            <a href="service.html"><i class="fas fa-th-large me-2"></i><span data-en="All Services" data-ar="جميع الخدمات">All Services</span></a>
+                            <a href="service-earthworks.html"><i class="fas fa-hard-hat me-2"></i><span data-en="Earthworks & Site Preparation" data-ar="أعمال الحفر وتهيئة المواقع">Earthworks & Site Preparation</span></a>
+                            <a href="service-structural.html"><i class="fas fa-building me-2"></i><span data-en="Structural & Concrete Works" data-ar="الأعمال الإنشائية والخرسانية">Structural & Concrete Works</span></a>
+                            <a href="service-roads.html"><i class="fas fa-road me-2"></i><span data-en="Road Works & Pavements" data-ar="أعمال الطرق والرصف">Road Works & Pavements</span></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="projects.html" class="mobile-nav-link active" data-en="Projects" data-ar="المشاريع">Projects</a>
+                <a href="news.html"     class="mobile-nav-link" data-en="News" data-ar="الأخبار">News</a>
+                <a href="contact.html"  class="mobile-nav-link" data-en="Contact Us" data-ar="تواصل معنا">Contact Us</a>
+                <div class="mt-3">
+                    <button onclick="toggleLang()" id="langBtnMobile" class="lang-nav-link w-100 justify-content-center">
+                        <span id="langBtnTextMobile">عربي</span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ══════════════════════════ PAGE HERO ══════════════════════════ -->
+    <div class="page-hero wow fadeIn" data-wow-delay="0.1s">
+        <div class="page-hero-content">
+            <h1 data-en="Our Projects" data-ar="مشاريعنا">Our Projects</h1>
+            <p data-en="Delivering quality infrastructure solutions across Saudi Arabia." data-ar="نقدم حلول بنية تحتية عالية الجودة في أنحاء المملكة العربية السعودية.">Delivering quality infrastructure solutions across Saudi Arabia.</p>
+        </div>
+    </div>
+
+    <!-- ══════════════════════════ STATS BAR ══════════════════════════ -->
+    <div class="container-xxl">
+        <div class="stats-bar px-4 py-2 my-0">
+            <div class="row g-0 text-center">
+                <div class="col-6 col-sm-3 stat-item">
+                    <span class="stat-num">7</span>
+                    <span class="stat-label" data-en="Total Projects" data-ar="إجمالي المشاريع">Total Projects</span>
+                </div>
+                <div class="col-6 col-sm-3 stat-item stat-divider">
+                    <span class="stat-num">6</span>
+                    <span class="stat-label" data-en="Completed Projects" data-ar="مشاريع مكتملة">Completed Projects</span>
+                </div>
+                <div class="col-6 col-sm-3 stat-item stat-divider">
+                    <span class="stat-num">1</span>
+                    <span class="stat-label" data-en="Awarded Project" data-ar="مشروع مرسى">Awarded Project</span>
+                </div>
+                <div class="col-6 col-sm-3 stat-item stat-divider">
+                    <span class="stat-num">+4.0M</span>
+                    <span class="stat-label" data-en="Total Project Value (SAR)" data-ar="إجمالي قيمة المشاريع (ر.س)">Total Value (SAR)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══════════════════════════ PROJECTS GRID ══════════════════════════ -->
+    <div class="container-xxl py-5">
+        <div class="container">
+
+            <!-- Section heading + filter -->
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="border-start border-5 border-primary ps-4">
+                        <h6 class="text-body text-uppercase mb-2" data-en="Portfolio" data-ar="سجل أعمالنا">Portfolio</h6>
+                        <h2 class="display-6 mb-0" data-en="Our Projects" data-ar="مشاريعنا">Our Projects</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp d-flex justify-content-lg-end mt-4 mt-lg-0" data-wow-delay="0.2s">
+                    <div class="filter-tabs" id="filterTabs">
+                        <button class="filter-tab active" data-filter="all"    data-en="All Projects"        data-ar="كل المشاريع">All Projects</button>
+                        <button class="filter-tab"        data-filter="completed" data-en="Completed Projects" data-ar="مشاريع مكتملة">Completed</button>
+                        <button class="filter-tab"        data-filter="awarded"   data-en="Awarded Project"    data-ar="مشروع مرسى">Awarded</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="row g-4" id="projectsGrid">
+
+                <!-- 1 -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp project-item" data-category="completed" data-wow-delay="0.1s">
+                    <div class="project-card">
+                        <div class="position-relative">
+                            <img src="img/carousel-1-2.webp" class="project-card-img" alt="Road & Asphalt Works – Madinah">
+                            <span class="project-card-badge badge-completed" data-en="Completed" data-ar="مكتمل">Completed</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5 data-en="Road & Asphalt Works – Royal Commission Projects (Al Manar Al Arabiya)" data-ar="أعمال الطرق والسفلتة – مشاريع الهيئة الملكية (شركة المنار العربية)">Road & Asphalt Works – Royal Commission Projects (Al Manar Al Arabiya)</h5>
+                            <p class="project-meta value-row"><i class="fas fa-coins"></i> SAR 167,210</p>
+                            <p class="project-meta"><i class="far fa-calendar-alt"></i> <span data-en="Apr 2025" data-ar="أبريل 2025">Apr 2025</span></p>
+                            <p class="project-meta"><i class="far fa-clock"></i> <span data-en="Duration: 2 Months" data-ar="المدة: شهران">Duration: 2 Months</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp project-item" data-category="completed" data-wow-delay="0.2s">
+                    <div class="project-card">
+                        <div class="position-relative">
+                            <img src="img/carousel-1-3.webp" class="project-card-img" alt="Road & Asphalt Works – Ras Tanura">
+                            <span class="project-card-badge badge-completed" data-en="Completed" data-ar="مكتمل">Completed</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5 data-en="Road & Asphalt Works – Ras Al Ghar Port (Abdul Qader Company)" data-ar="أعمال الطرق والسفلتة – ميناء رأس الغار (شركة عبد القادر)">Road & Asphalt Works – Ras Al Ghar Port (Abdul Qader Company)</h5>
+                            <p class="project-meta"><i class="fas fa-map-marker-alt"></i> <span data-en="Ras Tanura" data-ar="رأس تنورة">Ras Tanura</span></p>
+                            <p class="project-meta value-row"><i class="fas fa-coins"></i> SAR 565,420</p>
+                            <p class="project-meta"><i class="far fa-calendar-alt"></i> <span data-en="Jun 2025" data-ar="يونيو 2025">Jun 2025</span></p>
+                            <p class="project-meta"><i class="far fa-clock"></i> <span data-en="Duration: 3 Months" data-ar="المدة: 3 أشهر">Duration: 3 Months</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp project-item" data-category="completed" data-wow-delay="0.3s">
+                    <div class="project-card">
+                        <div class="position-relative">
+                            <img src="img/carousel-1-4.webp" class="project-card-img" alt="Road & Asphalt Works – Al Hada Station">
+                            <span class="project-card-badge badge-completed" data-en="Completed" data-ar="مكتمل">Completed</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5 data-en="Road & Asphalt Works – Al Hada Station (Al Naba Company)" data-ar="أعمال الطرق والسفلتة – محطة الهدا (شركة النبأ)">Road & Asphalt Works – Al Hada Station (Al Naba Company)</h5>
+                            <p class="project-meta"><i class="fas fa-map-marker-alt"></i> <span data-en="Al Hada" data-ar="الهدا">Al Hada</span></p>
+                            <p class="project-meta value-row"><i class="fas fa-coins"></i> SAR 717,812</p>
+                            <p class="project-meta"><i class="far fa-calendar-alt"></i> <span data-en="Oct 2025" data-ar="أكتوبر 2025">Oct 2025</span></p>
+                            <p class="project-meta"><i class="far fa-clock"></i> <span data-en="Duration: 3 Months" data-ar="المدة: 3 أشهر">Duration: 3 Months</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp project-item" data-category="completed" data-wow-delay="0.4s">
+                    <div class="project-card">
+                        <div class="position-relative">
+                            <img src="img/carousel-1-5.webp" class="project-card-img" alt="Road & Asphalt Works – Tuwair Global Contracting">
+                            <span class="project-card-badge badge-completed" data-en="Completed" data-ar="مكتمل">Completed</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5 data-en="Road Asphalt Works (Parking Lots) – MODA Gate, Dhahran (KAT Company – Subcontractor: Topaz International General Contracting)" data-ar="أعمال سفلتة طرق (مواقف) – بوابة مودا، الظهران (شركة كات – مقاول باطن: شركة توباز العالمية للمقاولات العامة)">
+                             Road Asphalt Works (Parking Lots) – MODA Gate, Dhahran (KAT Company – Subcontractor: Topaz International General Contracting)</h5>                            
+                            <p class="project-meta"><i class="fas fa-map-marker-alt"></i> <span data-en="Dhahran" data-ar="الظهران">Dhahran</span></p>
+                            <p class="project-meta value-row"><i class="fas fa-coins"></i> SAR 990,000</p>
+                            <p class="project-meta"><i class="far fa-calendar-alt"></i> <span data-en="Nov 2025" data-ar="نوفمبر 2025">Nov 2025</span></p>
+                            <p class="project-meta"><i class="far fa-clock"></i> <span data-en="Duration: 4 Months" data-ar="المدة: 4 أشهر">Duration: 4 Months</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp project-item" data-category="completed" data-wow-delay="0.1s">
+                    <div class="project-card">
+                        <div class="position-relative">
+                            <img src="img/carousel-1-6.webp" class="project-card-img" alt="Asphalt Supply & Execution Works">
+                            <span class="project-card-badge badge-completed" data-en="Completed" data-ar="مكتمل">Completed</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5 data-en="Asphalt Supply & Execution Works – Jubail Industrial City (Bin Sammar Contracting Est.)" data-ar="توريد وتنفيذ طبقة أسفلت – الجبيل الصناعية (مؤسسة بن سمار للمقاولات)">
+                               Asphalt Supply & Execution Works – Jubail Industrial City (Bin Sammar Contracting Est.)</h5>                            <p class="project-meta"><i class="fas fa-map-marker-alt"></i> <span data-en="Jubail Industrial City" data-ar="مدينة الجبيل الصناعية">Jubail Industrial City</span></p>
+                            <p class="project-meta value-row"><i class="fas fa-coins"></i> SAR 660,000</p>
+                            <p class="project-meta"><i class="far fa-calendar-alt"></i> <span data-en="Jan 2026" data-ar="يناير 2026">Jan 2026</span></p>
+                            <p class="project-meta"><i class="far fa-clock"></i> <span data-en="Duration: 3 Months" data-ar="المدة: 3 أشهر">Duration: 3 Months</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp project-item" data-category="completed" data-wow-delay="0.2s">
+                    <div class="project-card">
+                        <div class="position-relative">
+                            <img src="img/carousel-1-7.webp" class="project-card-img" alt="Road & Asphalt Works – SEC Facilities">
+                            <span class="project-card-badge badge-completed" data-en="Completed" data-ar="مكتمل">Completed</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5 data-en="Road & Asphalt Works – Saudi Electricity Company Sites (Dammam & Al Ahsa) (Topaz International General Contracting)" data-ar="أعمال الطرق والسفلتة – مواقع الشركة السعودية للكهرباء (الدمام والأحساء) (شركة توباز العالمية للمقاولات العامة)">
+                             Road & Asphalt Works – Saudi Electricity Company Sites (Dammam & Al Ahsa) (Topaz International General Contracting)</h5>                            <p class="project-meta"><i class="fas fa-map-marker-alt"></i> <span data-en="Dammam & Al Ahsa" data-ar="الدمام والأحساء">Dammam & Al Ahsa</span></p>
+                            <p class="project-meta value-row"><i class="fas fa-coins"></i> SAR 921,875</p>
+                            <p class="project-meta"><i class="far fa-calendar-alt"></i> <span data-en="Feb 2026" data-ar="فبراير 2026">Feb 2026</span></p>
+                            <p class="project-meta"><i class="far fa-clock"></i> <span data-en="Duration: 6 Months" data-ar="المدة: 6 أشهر">Duration: 6 Months</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7 – Awarded -->
+                <div class="col-lg-3 col-md-6 wow fadeInUp project-item" data-category="awarded" data-wow-delay="0.3s">
+                    <div class="project-card">
+                        <div class="position-relative">
+                            <img src="img/carousel-1-1.webp" class="project-card-img" alt="Road & Asphalt Works – Dammam & Al Ahsa">
+                            <span class="project-card-badge badge-awarded" data-en="Awarded" data-ar="مرسى">Awarded</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5 data-en="Lighting & Air Conditioning Systems Installation Works" data-ar="أعمال تركيب أنظمة الإضاءة والتكييف">Lighting & Air Conditioning Systems Installation Works</h5>
+                            <p class="project-meta"><i class="fas fa-map-marker-alt"></i> <span data-en="Taif" data-ar="الطايف ">Taif</span></p>
+                            <p class="project-meta value-row"><i class="fas fa-coins"></i> SAR 000,000</p>
+                            <p class="project-meta"><i class="far fa-calendar-alt"></i> <span data-en="Contract Signed: Feb 2026" data-ar="توقيع العقد: يونيو 2026">Contract Signed: Feb 2026</span></p>
+                            <p class="project-meta"><i class="far fa-clock"></i> <span data-en="Duration: 4 Months" data-ar="المدة: 4 أشهر">Duration: 4 Months</span></p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /row -->
+        </div>
+    </div>
+
+    <!-- ══════════════════════════ UPCOMING PROJECT ══════════════════════════ -->
+    
+
+    <!-- ══════════════════════════ CTA STRIP ══════════════════════════ -->
+    <div class="container-xxl pb-5">
+        <div class="container">
+            <div class="cta-strip wow fadeIn" data-wow-delay="0.1s">
+                <div>
+                    <h4 data-en="Building Better Infrastructure For A Better Future" data-ar="نبني بنية تحتية أفضل لمستقبل أفضل">Building Better Infrastructure For A Better Future</h4>
+                    <p data-en="We are committed to delivering high quality projects on time and within budget." data-ar="نلتزم بتسليم مشاريع عالية الجودة في الوقت المحدد وضمن الميزانية.">We are committed to delivering high quality projects on time and within budget.</p>
+                </div>
+                <a href="contact.html" class="btn-cta" data-en="Contact Us Today" data-ar="تواصل معنا اليوم">Contact Us Today</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══════════════════════════ FOOTER ══════════════════════════ -->
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <img src="img/about.webp" alt="AL-AMAD AL-FADHILAH Logo" style="height:200px;margin-right:20px;">
+                <p></p>
+                
+                <div class="d-flex pt-2">
+                    <a class="btn btn-square btn-outline-primary me-1" href="https://x.com/alamadgc"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-outline-primary me-1" href="https://www.instagram.com/alamadgc/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square btn-outline-primary me-0" href="https://www.linkedin.com/company/alamadgc"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4" data-en="Address" data-ar="العنوان">Address</h4>
+                <p><i class="fa fa-map-marker-alt me-3"></i><span data-en="Faisal Bin Fahd Road, Al Akhdar, Saudi Arabia" data-ar="طريق الأمير فيصل بن فهد، الخبر، المملكة العربية السعودية">Faisal Bin Fahd Road, Al Akhdar, Saudi Arabia</span></p>
+                <p><i class="fa fa-phone-alt me-3"></i><span style="direction:ltr; unicode-bidi:embed; display:inline-block;">+966 59 373 8642</span></p>
+                <p><i class="fa fa-envelope me-3"></i>info@alamadgc.com</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4" data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+                <a class="btn btn-link" href="about.html" data-en="About Us" data-ar="من نحن">About Us</a>
+                <a class="btn btn-link" href="service.html" data-en="Our Services" data-ar="خدماتنا">Our Services</a>
+            </div>
+
+            <!-- ← الإضافة الجديدة فقط -->
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4" data-en="Open Hours" data-ar="ساعات العمل">Open Hours</h4>
+                <p><i class="fa fa-clock me-3"></i>
+                    <span data-en="Sat – Thu: 8 am – 5 pm" data-ar="السبت – الخميس: 8 ص – 5 م">Sat – Thu: 8 am – 5 pm</span>
+                </p>
+                <p><i class="fa fa-times-circle me-3"></i>
+                    <span data-en="Friday: CLOSED" data-ar="الجمعة: مغلق">Friday: CLOSED</span>
+                </p>
+                <a href="Company-Profile.pdf" download class="btn btn-warning fw-bold mt-2 d-flex align-items-center gap-2" style="width:fit-content;">
+                    <i class="fa fa-download"></i>
+                    <span data-en="Download Brochure" data-ar="تحميل البروفايل">Download Brochure</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">alamadgc</a>, <span data-en="All Right Reserved." data-ar="جميع الحقوق محفوظة.">All Right Reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <span data-en="Designed By" data-ar="تصميم">Designed By</span> <a href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <div class="wa-tooltip" id="waTooltip" data-en="Contact Us" data-ar="تواصل معنا">تواصل معنا</div>
+    <a class="wa-btn" href="https://wa.me/966546082911" target="_blank" title="WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 2C8.27 2 2 8.27 2 16c0 2.44.65 4.73 1.78 6.72L2 30l7.5-1.74A13.93 13.93 0 0 0 16 30c7.73 0 14-6.27 14-14S23.73 2 16 2zm0 25.5a11.44 11.44 0 0 1-5.85-1.6l-.42-.25-4.45 1.03 1.06-4.34-.28-.44A11.47 11.47 0 0 1 4.5 16C4.5 9.6 9.6 4.5 16 4.5S27.5 9.6 27.5 16 22.4 27.5 16 27.5zm6.3-8.6c-.34-.17-2.02-1-2.34-1.11-.31-.11-.54-.17-.77.17-.22.34-.87 1.11-1.07 1.34-.2.22-.39.25-.73.08-.34-.17-1.44-.53-2.74-1.69-1.01-.9-1.69-2.02-1.89-2.36-.2-.34-.02-.52.15-.69.15-.15.34-.4.51-.59.17-.2.22-.34.34-.57.11-.22.06-.42-.03-.59-.08-.17-.77-1.85-1.05-2.53-.28-.67-.56-.58-.77-.59h-.66c-.22 0-.59.08-.9.42-.31.34-1.17 1.14-1.17 2.78s1.2 3.22 1.37 3.44c.17.22 2.36 3.6 5.72 5.05.8.34 1.42.55 1.9.7.8.25 1.53.22 2.1.13.64-.09 2.02-.82 2.31-1.62.28-.8.28-1.48.2-1.62-.09-.14-.31-.22-.65-.39z"/>
+        </svg>
+    </a>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // ── Language ──
+        let currentLang = localStorage.getItem('siteLang') || 'en';
+        document.addEventListener('DOMContentLoaded', function () { applyLang(currentLang); });
+
+        function applyLang(lang) {
+            const html = document.getElementById('htmlRoot');
+            html.setAttribute('lang', lang === 'ar' ? 'ar' : 'en');
+            html.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+            document.querySelectorAll('[data-ar]').forEach(el => {
+                el.textContent = lang === 'ar' ? el.getAttribute('data-ar') : el.getAttribute('data-en');
+            });
+            document.querySelectorAll('.topbar-phone, [dir="ltr"]').forEach(el => {
+                if (el.id !== 'htmlRoot') el.setAttribute('dir', 'ltr');
+            });
+            ['langBtnText','langBtnTextMobile'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = lang === 'ar' ? 'English' : 'عربي';
+            });
+            document.body.style.fontFamily = lang === 'ar' ? "'Tajawal', sans-serif" : '';
+            const offcanvas = document.getElementById('mobileMenu');
+            if (offcanvas) offcanvas.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+        }
+        function toggleLang() {
+            currentLang = currentLang === 'en' ? 'ar' : 'en';
+            localStorage.setItem('siteLang', currentLang);
+            applyLang(currentLang);
+        }
+
+        // ── Filter tabs ──
+        document.querySelectorAll('.filter-tab').forEach(btn => {
+            btn.addEventListener('click', function () {
+                document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const filter = this.dataset.filter;
+                document.querySelectorAll('.project-item').forEach(item => {
+                    if (filter === 'all' || item.dataset.category === filter) {
+                        item.style.display = '';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
