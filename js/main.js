@@ -1,43 +1,4 @@
-<script>
 
-// Define dataLayer and the gtag function.
-
-window.dataLayer = window.dataLayer || [];
-
-function gtag(){dataLayer.push(arguments);}
-
- 
-// Set default consent for specific regions according to your requirements
-
-gtag('consent', 'default', {
-
-  'ad_storage': 'denied',
-
-  'ad_user_data': 'denied',
-
-  'ad_personalization': 'denied',
-
-  'analytics_storage': 'denied',
-
- 'regions':[<list of ISO 3166-2 region codes>]
-
-});
-
-// Set default consent for all other regions according to your requirements
-
-gtag('consent', 'default', {
-
-  'ad_storage': 'denied',
-
-  'ad_user_data': 'denied',
-
-  'ad_personalization': 'denied',
-
-  'analytics_storage': 'denied'
-
-});
-
- 
 </script>
 
 <!--Banner script here!-->
